@@ -225,7 +225,7 @@ export const LuxuryFooter: React.FC = () => {
           <div className="flex items-center gap-2">
             <span>© {CURRENT_YEAR} ZisanTech Solutions. All rights reserved.</span>
             <span className="hidden sm:inline text-white/20">•</span>
-            <span className="hidden sm:inline">ScoreLabs Modern Cyber-Teal & Navy Palette</span>
+            <span className="hidden sm:inline text-slate-400">Enterprise SAP Consulting & Digital Transformation</span>
           </div>
 
           <div className="flex items-center gap-6">
