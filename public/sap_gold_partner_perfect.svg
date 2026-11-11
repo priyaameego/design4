@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 90" width="220" height="90" fill="none">
+  <defs>
+    <filter id="sapShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.18"/>
+    </filter>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC000"/>
+      <stop offset="60%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="sapBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00609C"/>
+      <stop offset="100%" stop-color="#008FD3"/>
+    </linearGradient>
+  </defs>
+
+  <g id="sap-gold-partner-official">
+    <!-- Gold Partner Right Box with angled slant on left matching SAP trapezoid -->
+    <path d="M 90 28 L 212 28 C 215 28 217 30 217 33 L 217 80 C 217 83 215 85 212 85 L 56 85 Z" fill="url(#goldGrad)" />
+    
+    <!-- Grey 3D shadow triangle fold between SAP and Gold Partner -->
+    <path d="M 90 28 L 126 28 L 56 85 L 48 85 Z" fill="#94A3B8" opacity="0.6" />
+
+    <!-- SAP Official Blue Trapezoid Badge with generous margin on left (never cut) -->
+    <path d="M 8 10 L 138 10 L 98 72 L 8 72 Z" fill="url(#sapBlue)" filter="url(#sapShadow)" />
+    
+    <!-- SAP Official Wordmark Bold White -->
+    <text x="62" y="55" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, Helvetica, sans-serif" font-weight="900" font-size="40" letter-spacing="1" text-anchor="middle">SAP</text>
+    <text x="122" y="27" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="9" font-weight="bold">®</text>
+
+    <!-- Gold Partner Text inside gold polygon -->
+    <text x="146" y="58" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, Helvetica, sans-serif" font-weight="900" font-size="20" letter-spacing="0.5" text-anchor="middle">Gold</text>
+    <text x="146" y="77" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, Helvetica, sans-serif" font-weight="800" font-size="15" letter-spacing="0.5" text-anchor="middle">Partner</text>
+  </g>
+</svg>
+
