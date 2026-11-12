@@ -99,20 +99,20 @@ export const LuxuryNavbar: React.FC<{ onConsultationClick?: () => void }> = ({ o
         <nav
           className={`rounded-2xl transition-all duration-300 ${
             isScrolled
-              ? 'bg-white/95 backdrop-blur-xl shadow-xl shadow-[#051329]/5 border border-slate-200 py-3 px-6'
-              : 'bg-white/90 backdrop-blur-md shadow-lg shadow-[#051329]/5 border border-slate-200 py-3.5 px-6'
+              ? 'bg-white/95 backdrop-blur-xl shadow-xl shadow-[#051329]/5 border border-slate-200 py-2.5 px-6'
+              : 'bg-white/90 backdrop-blur-md shadow-lg shadow-[#051329]/5 border border-slate-200 py-3 px-6'
           }`}
         >
           <div className="flex items-center justify-between">
             {/* ZT Brand Logo */}
             <button
               onClick={() => scrollToSection('top')}
-              className="flex items-center gap-3 group text-left focus:outline-none cursor-pointer"
+              className="flex items-center group text-left focus:outline-none cursor-pointer py-0.5"
             >
               <img
-                src="/zisantech-logo.jpg"
+                src="/zisantech-logo-transparent.png"
                 alt="ZisanTech Logo"
-                className="h-10 sm:h-11 w-auto object-contain rounded-md group-hover:scale-105 transition-transform duration-300"
+                className="h-11 sm:h-12 md:h-13 w-auto object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-sm"
               />
             </button>
 

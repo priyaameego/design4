@@ -76,11 +76,13 @@ export const LuxuryFooter: React.FC = () => {
           {/* Brand Column (4 cols) */}
           <div className="lg:col-span-4 space-y-5">
             <div className="flex items-center gap-3">
-              <img
-                src="/zisantech-logo.jpg"
-                alt="ZisanTech Logo"
-                className="h-10 sm:h-11 w-auto object-contain rounded-md bg-white/90 p-1 border border-white/20"
-              />
+              <div className="bg-white rounded-xl p-2.5 shadow-md inline-block">
+                <img
+                  src="/zisantech-logo-transparent.png"
+                  alt="ZisanTech Logo"
+                  className="h-10 sm:h-12 w-auto object-contain"
+                />
+              </div>
             </div>
 
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
