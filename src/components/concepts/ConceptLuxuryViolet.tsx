@@ -1013,7 +1013,7 @@ export const ConceptLuxuryViolet: React.FC = () => {
       <section className="py-24 bg-[#F8FAFC] relative border-t border-slate-200/80">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-            {/* Left Narrative with Exact Orange Accent Word from Reference Image 4 */}
+            {/* Left Narrative with Premium Cyan/Teal Gradient Accent Word */}
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -1023,7 +1023,7 @@ export const ConceptLuxuryViolet: React.FC = () => {
             >
               <motion.h2 variants={fadeInUp} className="font-heading font-black text-4xl sm:text-5xl text-[#0B1D3A] tracking-tight leading-tight">
                 Our Work Is For Your{' '}
-                <span className="text-[#FF7A00]">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2563EB] to-[#00A896]">
                   Success
                 </span>
               </motion.h2>
@@ -1462,7 +1462,7 @@ export const ConceptLuxuryViolet: React.FC = () => {
             className="text-center max-w-3xl mx-auto mb-16 space-y-3"
           >
             <motion.h2 variants={fadeInUp} className="font-heading font-black text-3xl sm:text-5xl text-white tracking-tight">
-              Why Choose <span className="text-[#FF7A00]">ZisanTech</span> Solutions?
+              Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2DD4BF] to-[#00A896]">ZisanTech</span> Solutions?
             </motion.h2>
             <motion.p variants={fadeInUp} className="text-sm sm:text-base text-slate-300 font-medium">
               Focused on Delivering Value Through SAP & IT Solutions
@@ -1482,25 +1482,25 @@ export const ConceptLuxuryViolet: React.FC = () => {
                 title: 'Experienced SAP Consultants',
                 desc: 'Certified professionals with live project expertise ensure your SAP initiatives are executed with precision and insight.',
                 icon: <Briefcase className="w-6 h-6 text-white" />,
-                gradient: 'from-amber-400 to-teal-500'
+                gradient: 'from-[#2563EB] to-[#00A896]'
               },
               {
                 title: 'Holistic SAP Services',
                 desc: 'From initial consultation to full-scale implementation and support, we deliver scalable solutions tailored to your unique challenges.',
                 icon: <Layers className="w-6 h-6 text-white" />,
-                gradient: 'from-orange-400 to-teal-500'
+                gradient: 'from-[#00A896] to-[#051329]'
               },
               {
                 title: 'Business-Centric Technology Approach',
                 desc: 'We prioritize solutions that enhance your business processes and drive tangible, measurable operational results.',
                 icon: <TrendingUp className="w-6 h-6 text-white" />,
-                gradient: 'from-amber-500 to-teal-600'
+                gradient: 'from-[#2563EB] to-[#2DD4BF]'
               },
               {
                 title: 'Interactive SAP Training Programs',
                 desc: 'Our training emphasizes practical learning through real-time projects, enabling you to apply knowledge confidently.',
                 icon: <GraduationCap className="w-6 h-6 text-white" />,
-                gradient: 'from-orange-400 to-teal-400'
+                gradient: 'from-[#00A896] to-[#1E3A8A]'
               }
             ].map((card, idx) => (
               <motion.div
@@ -1596,19 +1596,19 @@ export const ConceptLuxuryViolet: React.FC = () => {
                 title: 'Process Optimization',
                 desc: 'We analyze your existing workflows and identify inefficiencies, then design streamlined, standardized processes that boost productivity and reduce operational friction.',
                 icon: <RotateCw className="w-7 h-7 text-[#00A896]" />,
-                ringColor: 'from-[#00A896] via-teal-400 to-[#FF7A00]'
+                ringColor: 'from-[#00A896] via-teal-400 to-[#2563EB]'
               },
               {
                 title: 'Tailored SAP Implementation & Support',
                 desc: 'Our team customizes SAP solutions to fit your specific business requirements, ensuring seamless integration and maximum value from your technology investment.',
                 icon: <Check className="w-7 h-7 text-[#00A896]" />,
-                ringColor: 'from-[#00A896] via-teal-400 to-[#FF7A00]'
+                ringColor: 'from-[#00A896] via-teal-400 to-[#2563EB]'
               },
               {
                 title: 'Quality Assurance & Continuous Improvement',
                 desc: 'Through rigorous testing and ongoing monitoring, we maintain high standards for all solutions, ensuring reliability, accuracy, and performance over time.',
                 icon: <Award className="w-7 h-7 text-[#00A896]" />,
-                ringColor: 'from-[#00A896] via-teal-400 to-[#FF7A00]'
+                ringColor: 'from-[#00A896] via-teal-400 to-[#2563EB]'
               }
             ].map((item, idx) => (
               <motion.div
@@ -1617,8 +1617,8 @@ export const ConceptLuxuryViolet: React.FC = () => {
                 whileHover={{ y: -8 }}
                 className="p-8 rounded-3xl bg-[#F8FAFC] border border-slate-200/90 hover:border-[#00A896] hover:bg-white shadow-sm hover:shadow-2xl hover:shadow-[#00A896]/15 transition-all duration-500 text-center flex flex-col items-center space-y-5"
               >
-                {/* Circular Bi-Color Ring Icon Treatment from Reference Image 1 */}
-                <div className="relative w-20 h-20 rounded-full p-1 bg-gradient-to-tr from-[#00A896] to-[#FF7A00] flex items-center justify-center shadow-md">
+                {/* Circular Bi-Color Ring Icon Treatment */}
+                <div className="relative w-20 h-20 rounded-full p-1 bg-gradient-to-tr from-[#00A896] to-[#2563EB] flex items-center justify-center shadow-md">
                   <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
                     {item.icon}
                   </div>
