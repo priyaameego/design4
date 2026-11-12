@@ -1738,7 +1738,7 @@ export const ConceptLuxuryViolet: React.FC = () => {
       </section>
 
       {/* =========================================================================
-          15. CONTACT SECTION WITH MAWAI MAP + 3 OVERLAY HUBS
+          15. CONTACT SECTION WITH INTERACTIVE MAP + 3 OVERLAY HUBS
       ========================================================================= */}
       <section id="contact" className="bg-[#051329] text-white relative overflow-hidden">
         {/* Transformation Strip (ScoreLabs Blue/Teal Gradient) */}

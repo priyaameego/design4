@@ -65,7 +65,7 @@ export const ContactPage: React.FC = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
 
-        {/* Floating Pin Card (Mawai Reference UI) */}
+        {/* Floating Pin Card (Executive Headquarters Badge) */}
         <div className="absolute top-6 left-4 sm:left-12 z-20 bg-white text-[#191A24] p-5 rounded-2xl shadow-2xl border border-[#191A24]/10 max-w-xs animate-fade-in">
           <div className="flex items-start gap-3">
             <div className="w-10 h-10 rounded-xl bg-[#EDE8FA] text-[#6941C6] flex items-center justify-center font-bold text-sm flex-shrink-0">
