@@ -109,49 +109,11 @@ export const LuxuryNavbar: React.FC<{ onConsultationClick?: () => void }> = ({ o
               onClick={() => scrollToSection('top')}
               className="flex items-center gap-3 group text-left focus:outline-none cursor-pointer"
             >
-              <div className="relative w-10 h-10 rounded-xl bg-gradient-to-br from-[#051329] to-[#00A896] flex items-center justify-center shadow-md shadow-[#00A896]/20 border border-white/20 group-hover:scale-105 transition-transform duration-300">
-                <svg
-                  viewBox="0 0 32 32"
-                  className="w-6 h-6 text-white"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7 9H17L10 19H20"
-                    stroke="#E6FAF6"
-                    strokeWidth="2.4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M17 13H25"
-                    stroke="#ffffff"
-                    strokeWidth="2.4"
-                    strokeLinecap="round"
-                  />
-                  <path
-                    d="M21 13V23"
-                    stroke="#ffffff"
-                    strokeWidth="2.4"
-                    strokeLinecap="round"
-                  />
-                  <circle cx="21" cy="9" r="1.5" fill="#00A896" />
-                </svg>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-1.5">
-                  <span className="font-heading font-extrabold text-xl tracking-tight text-[#0B1D3A]">
-                    Zisan<span className="text-[#00A896]">Tech</span>
-                  </span>
-                  <span className="text-[10px] font-bold uppercase tracking-wider bg-[#E6FAF6] text-[#00A896] px-1.5 py-0.5 rounded border border-[#00A896]/20">
-                    ENTERPRISE
-                  </span>
-                </div>
-                <p className="text-[10px] tracking-wider text-slate-400 font-medium uppercase font-mono">
-                  Global SAP & IT Consulting
-                </p>
-              </div>
+              <img
+                src="/zisantech-logo.jpg"
+                alt="ZisanTech Logo"
+                className="h-10 sm:h-11 w-auto object-contain rounded-md group-hover:scale-105 transition-transform duration-300"
+              />
             </button>
 
             {/* Desktop Navigation Links */}

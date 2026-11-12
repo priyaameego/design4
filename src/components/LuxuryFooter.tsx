@@ -76,37 +76,11 @@ export const LuxuryFooter: React.FC = () => {
           {/* Brand Column (4 cols) */}
           <div className="lg:col-span-4 space-y-5">
             <div className="flex items-center gap-3">
-              <div className="relative w-10 h-10 rounded-xl bg-gradient-to-br from-[#051329] to-[#00A896] flex items-center justify-center border border-white/20 shadow-md">
-                <svg
-                  viewBox="0 0 32 32"
-                  className="w-6 h-6 text-white"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7 9H17L10 19H20"
-                    stroke="#E6FAF6"
-                    strokeWidth="2.4"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M17 13H25"
-                    stroke="#ffffff"
-                    strokeWidth="2.4"
-                    strokeLinecap="round"
-                  />
-                  <path
-                    d="M21 13V23"
-                    stroke="#ffffff"
-                    strokeWidth="2.4"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </div>
-              <span className="font-heading font-extrabold text-2xl tracking-tight text-white">
-                Zisan<span className="text-[#00A896]">Tech</span>
-              </span>
+              <img
+                src="/zisantech-logo.jpg"
+                alt="ZisanTech Logo"
+                className="h-10 sm:h-11 w-auto object-contain rounded-md bg-white/90 p-1 border border-white/20"
+              />
             </div>
 
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
